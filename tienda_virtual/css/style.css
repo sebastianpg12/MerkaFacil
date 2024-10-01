@@ -1,0 +1,25 @@
+/* Estilos generales */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Para asegurar que el contenido ocupe al menos el 100% de la altura de la ventana */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* El contenido debe ocupar todo el espacio disponible menos el footer */
+.container {
+    flex: 1;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
